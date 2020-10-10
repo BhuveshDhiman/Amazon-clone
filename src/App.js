@@ -2,12 +2,14 @@ import React from 'react';
 import './App.css';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import Header from './Header';
+import Home from './Home';
 function App() {
   return (
     <Router>
       <div className='app'>
         <Switch>
           <Route path='/checkout'>
+            <Header></Header>
             <h1>Checkout page</h1>
           </Route>
           <Route path='/login'>
@@ -15,7 +17,7 @@ function App() {
           </Route>
           <Route path='/'>
             <Header></Header>
-            <h1>Home page</h1>
+            <Home></Home>
           </Route>
         </Switch>
       </div>
