@@ -1,20 +1,5 @@
 export const initialState = {
-  cart: [
-    // {
-    //   id: 105,
-    //   title: 'Samsung S20 Ultra',
-    //   price: 97999,
-    //   rating: 4,
-    //   image: 'https://m.media-amazon.com/images/I/71cD4NUIBWL._AC_UY218_.jpg',
-    // },
-    // {
-    //   id: 105,
-    //   title: 'Samsung S20 Ultra',
-    //   price: 97999,
-    //   rating: 4,
-    //   image: 'https://m.media-amazon.com/images/I/71cD4NUIBWL._AC_UY218_.jpg',
-    // },
-  ],
+  cart: [],
   user: null,
 };
 export const getCartTotal = (basket) =>
@@ -22,6 +7,9 @@ export const getCartTotal = (basket) =>
 const reducer = (state, action) => {
   console.log(action);
   switch (action.type) {
+    case 'SET_USER':
+      return { ...state, user: action.user };
+
     case 'ADD_TO_CART':
       //  Logic for adding item to the cart
       return { ...state, cart: [...state.cart, action.item] };
