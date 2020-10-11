@@ -27,13 +27,4 @@ function App() {
   );
 }
 
-{
-  /* localhost.com */
-}
-{
-  /* localhost.com/login */
-}
-{
-  /* localhost.com/checkout */
-}
 export default App;

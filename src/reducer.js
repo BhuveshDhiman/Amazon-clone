@@ -1,19 +1,19 @@
 export const initialState = {
   cart: [
-    {
-      id: 105,
-      title: 'Samsung S20 Ultra',
-      price: 97999,
-      rating: 4,
-      image: 'https://m.media-amazon.com/images/I/71cD4NUIBWL._AC_UY218_.jpg',
-    },
-    {
-      id: 105,
-      title: 'Samsung S20 Ultra',
-      price: 97999,
-      rating: 4,
-      image: 'https://m.media-amazon.com/images/I/71cD4NUIBWL._AC_UY218_.jpg',
-    },
+    // {
+    //   id: 105,
+    //   title: 'Samsung S20 Ultra',
+    //   price: 97999,
+    //   rating: 4,
+    //   image: 'https://m.media-amazon.com/images/I/71cD4NUIBWL._AC_UY218_.jpg',
+    // },
+    // {
+    //   id: 105,
+    //   title: 'Samsung S20 Ultra',
+    //   price: 97999,
+    //   rating: 4,
+    //   image: 'https://m.media-amazon.com/images/I/71cD4NUIBWL._AC_UY218_.jpg',
+    // },
   ],
   user: null,
 };

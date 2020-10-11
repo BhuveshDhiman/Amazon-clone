@@ -1,10 +1,8 @@
 import React from 'react';
 import './Checkout.css';
 import { useStateValue } from '../StateProvider';
-import { ShoppingBasket } from '@material-ui/icons';
 import CheckoutProduct from './CheckoutProduct';
 import Subtotal from './Subtotal/Subtotal';
-import CurrencyFormat from 'react-currency-format';
 
 function Checkout() {
   const [{ cart }] = useStateValue();
