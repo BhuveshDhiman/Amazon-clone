@@ -19,7 +19,7 @@ function Checkout() {
             <h2>Your shopping cart is empty!</h2>
             <p>
               You have no items in your shopping cart. To buy please click on
-              'Add to basket' next to the item
+              'Add to cart' next to the item
             </p>
           </div>
         ) : (
