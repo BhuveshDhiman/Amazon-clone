@@ -1,5 +1,7 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+Checkout the live project: https://bhuvesh--clone-7b037.web.app/
+
 ## Available Scripts
 
 In the project directory, you can run:
